@@ -1,0 +1,10 @@
+video {
+  margin: 25px;
+  height: 400px;
+  width: auto;
+  border: solid 3px black;
+  gap: 5px;
+}
+video:hover {
+  border: solid 3px red;
+}

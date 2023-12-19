@@ -1,0 +1,9 @@
+.footer_down {
+  position: fixed;
+  bottom: 0;
+  background-color: #eebf94;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}

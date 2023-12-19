@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Arial", sans-serif;
+}
+/*navBar*/
+.App-nav {
+  display: flex;
+  height: 120px;
+  justify-content: space-between;
+  background-color: #eebf94;
+  align-items: center;
+  text-align: center;
+  padding: 0 7px;
+}
+.App-nav img {
+  height: 110px;
+}
+.App-nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+  font-size: 20px;
+  font-weight: 500;
+}
+Li {
+  text-decoration: none;
+}
+.App-nav li {
+  margin: 7px;
+}
+.App-nav li:hover {
+  color: rgb(208, 14, 14);
+}
+
+.App-nav hr {
+  width: 50px;
+  height: 3px;
+  border-style: none;
+  border-radius: 5px;
+  background-color: rgb(208, 14, 14);
+  margin-top: 5px;
+}
+button {
+  font-size: 14px;
+  font-weight: 700;
+  height: 34px;
+  border-radius: 15px;
+  width: 85px;
+  margin-right: 50px;
+}

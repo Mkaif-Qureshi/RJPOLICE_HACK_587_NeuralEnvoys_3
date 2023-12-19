@@ -1,0 +1,81 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+/*navBar*/
+.App-nav {
+  display: flex;
+  height: 135px;
+  justify-content: space-between;
+  background-color: #eebf94;
+}
+.left {
+  display: flex;
+  justify-content: space-between;
+  gap: 5px;
+}
+h1 {
+  font-size: 110px;
+  align-items: center;
+  text-align: center;
+}
+.right {
+  display: flex;
+}
+
+/*login image*/
+.image-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.login {
+  margin-top: 95px;
+  border-radius: 15px;
+  width: 554px;
+  /* height: 611px; */
+  border: solid rgba(237, 236, 236, 0.534);
+}
+.login-top {
+  background-color: #f8b295;
+  width: 555px;
+  height: 112px;
+  border-radius: 15px 15px 0 0;
+  font-size: 50px;
+  display: flex;
+  justify-content: right;
+  align-items: center;
+}
+.login-top h3 {
+  padding-right: 32px;
+}
+/*login content*/
+.login-content {
+  padding: 15px 20px;
+}
+.login-content p {
+  font-size: 20px;
+  padding-bottom: 5px;
+}
+input {
+  width: 485px;
+  margin-bottom: 10px;
+  height: 33px;
+}
+.login-bottom {
+  display: flex;
+  justify-content: space-between;
+  padding: 25px 25px;
+  text-align: center;
+}
+button {
+  height: 36px;
+  width: 100px;
+  border-radius: 15px;
+  background-color: #f8b295;
+  border-style: none;
+  box-shadow: 4px 5px rgba(101, 99, 99, 0.719);
+}
+button:hover {
+  background-color: #eebf94;
+}

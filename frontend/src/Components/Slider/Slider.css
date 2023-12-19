@@ -1,0 +1,24 @@
+.scrolling-container {
+  position: relative;
+  overflow: hidden;
+}
+.scrolling-text {
+  white-space: nowrap; /* Prevent text from wrapping */
+  font-size: 16px; /* Adjust the font size as needed */
+  padding: 5px; /* Optional padding for the text */
+  animation: scrollText 20s linear infinite; /* Adjust the animation duration as needed */
+  display: flex;
+  justify-content: space-between;
+  font-size: 14px;
+  font-weight: 500;
+  color: rgb(208, 14, 14);
+}
+
+@keyframes scrollText {
+  from {
+    transform: translateX(100%);
+  }
+  to {
+    transform: translateX(-100%);
+  }
+}

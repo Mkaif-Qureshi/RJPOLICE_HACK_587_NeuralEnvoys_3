@@ -21,3 +21,8 @@ Design and implement an AI-based intelligent camera system capable of:
 
 This system aims to enhance surveillance capabilities by leveraging AI to automatically recognize and respond to potential threats observed by the cameras.
 
+## Team Members:
+  - Shivpratik Hande
+  - MKaif Qureshi
+  - Sahil Motiramani
+

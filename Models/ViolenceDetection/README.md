@@ -16,7 +16,7 @@ This Python script uses pre-trained deep learning models to detect instances of 
 2. **Clone Repository:**
 
     ```bash
-    git clone https://github.com/your_username/violence-detection.git
+    git clone https://github.com/Mkaif-Qureshi/RJPOLICE_HACK_587_NeuralEnvoys_3/Models/violence-detection.git
     ```
 
 3. **Setup:**

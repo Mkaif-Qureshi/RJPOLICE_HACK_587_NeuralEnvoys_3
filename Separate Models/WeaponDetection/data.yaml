@@ -1,0 +1,4 @@
+train: D:/KAIF/WeaponDetection/weaponData/train/images
+val: D:/KAIF/WeaponDetection/weaponData/val/images
+cm: 9
+names: ['Automatic Rifle', 'Bazooka', 'Grenade Launcher', 'Handgun', 'Knife', 'Shotgun', 'SMG', 'Sniper', 'Sword' ]
